@@ -9,7 +9,7 @@
   "force": false,
   "minSupportedVersionCode": 800,
   "notes": [
-    "首个公司内部试用版本。",
+    "首个正式试用版本。",
     "提供设备连接、投屏、应用、文件、诊断与命令工作台。",
     "支持 GitHub Releases 下载与在线更新检测。"
   ]
