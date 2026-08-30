@@ -3,10 +3,14 @@
   "versionCode": 900,
   "title": "ADB DevTools v0.9.0",
   "releaseDate": "2026-08-30",
-  "downloadUrl": "",
-  "releasePage": "",
-  "changelogUrl": "",
+  "downloadUrl": "https://github.com/huanwuchen/ADB-DevTools/releases/download/v0.9.0/ADB.DevTools-0.9.0-win-x64.exe",
+  "releasePage": "https://github.com/huanwuchen/ADB-DevTools/releases/tag/v0.9.0",
+  "changelogUrl": "https://huanwuchen.github.io/ADB-DevTools/update.html",
   "force": false,
   "minSupportedVersionCode": 800,
-  "notes": []
+  "notes": [
+    "首个公司内部试用版本。",
+    "提供设备连接、投屏、应用、文件、诊断与命令工作台。",
+    "支持 GitHub Releases 下载与在线更新检测。"
+  ]
 }
