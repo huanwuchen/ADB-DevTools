@@ -1,16 +1,16 @@
 {
-  "version": "0.9.0",
-  "versionCode": 900,
-  "title": "ADB DevTools v0.9.0",
+  "version": "0.9.1",
+  "versionCode": 901,
+  "title": "ADB DevTools v0.9.1",
   "releaseDate": "2026-08-30",
-  "downloadUrl": "https://github.com/huanwuchen/ADB-DevTools/releases/download/v0.9.0/ADB.DevTools-0.9.0-win-x64.exe",
-  "releasePage": "https://github.com/huanwuchen/ADB-DevTools/releases/tag/v0.9.0",
+  "downloadUrl": "https://github.com/huanwuchen/ADB-DevTools/releases/download/v0.9.1/ADB.DevTools-0.9.1-win-x64.exe",
+  "releasePage": "https://github.com/huanwuchen/ADB-DevTools/releases/tag/v0.9.1",
   "changelogUrl": "https://huanwuchen.github.io/ADB-DevTools/update.html",
   "force": false,
   "minSupportedVersionCode": 800,
   "notes": [
-    "首个正式试用版本。",
-    "提供设备连接、投屏、应用、文件、诊断与命令工作台。",
-    "支持 GitHub Releases 下载与在线更新检测。"
+    "关闭主窗口后驻留到系统托盘，可从托盘重新显示或退出。",
+    "重复启动时自动唤醒已有窗口，不再创建多个实例。",
+    "优化系统托盘图标的可见性与对比度。"
   ]
 }
