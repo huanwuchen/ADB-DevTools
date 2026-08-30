@@ -1,16 +1,17 @@
 {
-  "version": "0.9.1",
-  "versionCode": 901,
-  "title": "ADB DevTools v0.9.1",
+  "version": "0.9.2",
+  "versionCode": 902,
+  "title": "ADB DevTools v0.9.2",
   "releaseDate": "2026-08-30",
-  "downloadUrl": "https://github.com/huanwuchen/ADB-DevTools/releases/download/v0.9.1/ADB.DevTools-0.9.1-win-x64.exe",
-  "releasePage": "https://github.com/huanwuchen/ADB-DevTools/releases/tag/v0.9.1",
+  "downloadUrl": "https://github.com/huanwuchen/ADB-DevTools/releases/download/v0.9.2/ADB.DevTools-0.9.2-win-x64.exe",
+  "releasePage": "https://github.com/huanwuchen/ADB-DevTools/releases/tag/v0.9.2",
+  "sha256": "25adce63ddb48c6478dbfa1186b1b5d717b3c5df05b4fc9156761651f28e97e2",
   "changelogUrl": "https://huanwuchen.github.io/ADB-DevTools/update.html",
   "force": false,
   "minSupportedVersionCode": 800,
   "notes": [
-    "关闭主窗口后驻留到系统托盘，可从托盘重新显示或退出。",
-    "重复启动时自动唤醒已有窗口，不再创建多个实例。",
-    "优化系统托盘图标的可见性与对比度。"
+    "更新包在应用内下载并校验 SHA-256，无需跳转浏览器。",
+    "校验通过后按默认路径静默安装，自动退出当前版本。",
+    "强制更新同样使用受控下载与安装流程。"
   ]
 }
