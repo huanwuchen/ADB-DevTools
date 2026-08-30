@@ -12,6 +12,7 @@
     if (manifest?.version) {
       setText('version', `当前版本 v${manifest.version}`)
       setText('release-date', manifest.releaseDate || '')
+      setText('release-date-card', manifest.releaseDate ? `发布于 ${manifest.releaseDate}` : '')
       setLink('download', manifest.downloadUrl)
       setLink('release-page', manifest.releasePage)
       setLink('changelog', manifest.changelogUrl || 'update.html')
@@ -19,6 +20,10 @@
       if (notes && Array.isArray(manifest.notes)) notes.innerHTML = manifest.notes.slice(0, 4).map((note) => `<li>${String(note)}</li>`).join('') || '<li>首个内部试用版本。</li>'
     }
     const github = config?.github
-    if (github?.owner && github?.repo) setLink('github', `https://github.com/${github.owner}/${github.repo}`)
+    if (github?.owner && github?.repo) {
+      const repository = `https://github.com/${github.owner}/${github.repo}`
+      setLink('github', repository)
+      setLink('license', `${repository}/blob/gh-pages/LICENSE`)
+    }
   } catch { setText('version', '当前版本信息暂不可用') }
 })()
