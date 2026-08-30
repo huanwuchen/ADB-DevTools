@@ -1,16 +1,12 @@
-# ADB DevTools
+# ADB DevTools 发布页
 
-Android 设备开发与排障工作台。
-
-## 下载与更新
+Android 设备开发与排障工作台的下载页与在线更新清单。
 
 - 下载页：https://huanwuchen.github.io/ADB-DevTools/
 - 更新日志：https://huanwuchen.github.io/ADB-DevTools/update.html
-- 更新清单：https://raw.githubusercontent.com/huanwuchen/ADB-DevTools/gh-pages/update/latest.json
+- 最新版本清单：https://raw.githubusercontent.com/huanwuchen/ADB-DevTools/gh-pages/update/latest.json
 
-## 此仓库用途
-
-本仓库当前仅托管 ADB DevTools 的 GitHub Pages 下载页面和在线更新清单，不包含桌面客户端源码。
+![首页](assets/screenshots/home.png)
 
 ## 发布新版本
 
