@@ -15,6 +15,6 @@
     <section class="timeline"><article class="entry"><h2>v0.9.0 · 首个正式试用版本</h2><p>面向 Android 开发、测试与设备维护的桌面工作台，覆盖连接、控制、管理、诊断和排障工作流。</p><div class="notes" id="notes"><div class="note"><b>设备工作台</b><span>设备连接、首页概览、投屏、遥控、截图与录屏。</span></div><div class="note"><b>管理与排障</b><span>应用、APK、文件、设备诊断、布局检查、Logcat 与 Shell。</span></div><div class="note"><b>高效工作流</b><span>命令中心、测试复现、性能查看和常用开发操作。</span></div></div></article></section>
     <p class="footer">ADB DevTools · Android 设备开发与排障工作台</p>
   </main>
-  <script>fetch('./update/latest.json').then(r=>r.ok?r.json():null).then(m=>{if(!m)return;document.getElementById('title').textContent=m.title||`ADB DevTools v${m.version}`;document.getElementById('release-date').textContent=m.releaseDate||'';if(/^https:\/\//i.test(m.downloadUrl)){const a=document.getElementById('download');a.href=m.downloadUrl;a.classList.remove('disabled')}})</script>
+  <script>fetch('./update/latest.json?v=0.9.1').then(r=>r.ok?r.json():null).then(m=>{if(!m)return;document.getElementById('title').textContent=m.title||`ADB DevTools v${m.version}`;document.getElementById('release-date').textContent=m.releaseDate||'';if(/^https:\/\//i.test(m.downloadUrl)){const a=document.getElementById('download');a.href=m.downloadUrl;a.classList.remove('disabled')}})</script>
 </body>
 </html>

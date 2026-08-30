@@ -5,7 +5,7 @@
   try {
     const [config, manifest] = await Promise.all([
       fetch('./release.config.json').then((res) => res.ok ? res.json() : null),
-      fetch('./update/latest.json').then((res) => res.ok ? res.json() : null),
+      fetch('./update/latest.json?v=0.9.1').then((res) => res.ok ? res.json() : null),
     ])
     state.config = config
     state.manifest = manifest
